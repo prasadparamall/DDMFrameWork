@@ -1,0 +1,63 @@
+16:11:57,463 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+16:11:57,477 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+16:11:57,478 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+16:11:57,487 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@42deb43a
+16:11:57,526 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+16:11:57,529 DEBUG PlatformDependent0:1000 - Java version: 17
+16:11:57,532 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+16:11:57,534 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+16:11:57,535 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+16:11:57,537 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+16:11:57,538 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+16:11:57,540 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+16:11:57,542 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @73846619
+16:11:57,544 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+16:11:57,544 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+16:11:57,564 DEBUG PlatformDependent:1270 - maxDirectMemory: 1317011456 bytes (maybe)
+16:11:57,566 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\Kanna\AppData\Local\Temp (java.io.tmpdir)
+16:11:57,566 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+16:11:57,567 DEBUG PlatformDependent:1119 - Platform: Windows
+16:11:57,568 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+16:11:57,568 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+16:11:57,570 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+16:11:57,571 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+16:11:57,586 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+16:11:57,620 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+16:11:57,620 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+16:11:57,713 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+16:11:57,714 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+16:11:57,770 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 4
+16:11:57,795 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+16:11:57,795 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+16:11:57,882 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 4
+16:11:57,883 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 4
+16:11:57,883 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+16:11:57,883 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+16:11:57,883 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+16:11:57,884 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+16:11:57,884 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+16:11:57,884 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+16:11:57,884 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+16:11:57,885 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+16:11:57,885 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+16:11:57,885 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+16:11:57,912 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+16:11:57,912 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+16:11:57,912 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+16:11:58,926 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 3584 (auto-detected)
+16:11:58,930 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+16:11:58,930 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+16:11:58,946 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+16:11:58,950 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+16:11:58,986 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 00:26:c6:ff:fe:b0:d5:20 (auto-detected)
+16:11:59,115 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+16:11:59,116 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+16:11:59,116 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@699b0c5a
+16:11:59,164 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+16:11:59,165 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+16:11:59,165 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+16:11:59,165 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+16:12:00,552 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+16:12:00,823 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xd6f855e2d63c0f2b
+16:12:00,950  INFO devpinoyLogger:63 - launching chrome broswer
+16:12:11,443  INFO devpinoyLogger:80 - Open URL from config file

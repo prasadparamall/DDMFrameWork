@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-17T16:11:55 IST" name="Default suite" finished-at="2023-02-17T16:12:11 IST" duration-ms="15734">
+    <groups>
+    </groups>
+    <test started-at="2023-02-17T16:11:55 IST" name="Default test" finished-at="2023-02-17T16:12:11 IST" duration-ms="15734">
+      <class name="openBrowserAndQuitBrowser.OpenBrowserAndURL">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:openBrowserAndQuitBrowser.OpenBrowserAndURL@229c6181]" started-at="2023-02-17T16:11:55 IST" name="openBrowserAndURL" finished-at="2023-02-17T16:12:11 IST" duration-ms="15543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- openBrowserAndQuitBrowser.OpenBrowserAndURL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
